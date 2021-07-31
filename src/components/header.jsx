@@ -13,7 +13,7 @@ import {
   searchButton,
   nav,
 } from "./header.module.css"
-import Logo from "../icons/logo"
+
 
 export function Header() {
   const { checkout, loading, didJustAddToCart } = React.useContext(StoreContext)
